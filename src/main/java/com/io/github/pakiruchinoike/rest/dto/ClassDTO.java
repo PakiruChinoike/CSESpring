@@ -5,6 +5,7 @@ import java.util.List;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
+import com.io.github.pakiruchinoike.domain.enums.Classname;
 import com.io.github.pakiruchinoike.validation.NotEmptyList;
 
 import lombok.AllArgsConstructor;
@@ -27,6 +28,9 @@ public class ClassDTO {
 
     @NotNull(message = "{class.value.empty}")
     private Integer pp;
+
+    @NotNull(message = "class.value.empty")
+    private Classname classname;
 
     @NotNull(message = "{class.value.empty}")
     private Integer attributes;
