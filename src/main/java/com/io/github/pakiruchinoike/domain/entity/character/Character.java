@@ -1,4 +1,4 @@
-package com.io.github.pakiruchinoike.domain.entity;
+package com.io.github.pakiruchinoike.domain.entity.character;
 
 import java.util.List;
 
@@ -16,6 +16,7 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.io.github.pakiruchinoike.domain.entity.client.User;
 import com.io.github.pakiruchinoike.validation.NotEmptyList;
 
 import lombok.AllArgsConstructor;

@@ -11,9 +11,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @ManagedBean
 public class CombatLogDTO {
-    
-    //COMBAT INFORMATION
-    public static Integer roundValue;
 
     //TARGET INFORMATION
     private Integer targetHp;

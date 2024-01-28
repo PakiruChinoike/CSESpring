@@ -2,14 +2,14 @@ package com.io.github.pakiruchinoike.service.script;
 
 import org.springframework.stereotype.Service;
 
-import com.io.github.pakiruchinoike.domain.entity.Attributes;
-import com.io.github.pakiruchinoike.domain.entity.Character;
 import com.io.github.pakiruchinoike.domain.enums.Classname;
 import com.io.github.pakiruchinoike.rest.dto.AttributesDTO;
 import com.io.github.pakiruchinoike.rest.dto.CharCreationDTO;
 import com.io.github.pakiruchinoike.service.model.CharacterService;
 import com.io.github.pakiruchinoike.service.model.ClassService;
-import com.io.github.pakiruchinoike.domain.entity.Class;
+import com.io.github.pakiruchinoike.domain.entity.character.Attributes;
+import com.io.github.pakiruchinoike.domain.entity.character.Character;
+import com.io.github.pakiruchinoike.domain.entity.character.Class;
 
 import lombok.RequiredArgsConstructor;
 

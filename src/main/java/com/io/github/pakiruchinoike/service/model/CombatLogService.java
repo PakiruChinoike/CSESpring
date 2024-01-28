@@ -1,4 +1,4 @@
-package com.io.github.pakiruchinoike.service;
+package com.io.github.pakiruchinoike.service.model;
 
 import com.io.github.pakiruchinoike.rest.dto.CombatLogDTO;
 

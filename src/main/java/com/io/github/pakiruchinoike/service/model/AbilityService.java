@@ -1,8 +1,8 @@
-package com.io.github.pakiruchinoike.service;
+package com.io.github.pakiruchinoike.service.model;
 
 import java.util.List;
 
-import com.io.github.pakiruchinoike.domain.entity.Ability;
+import com.io.github.pakiruchinoike.domain.entity.ability.Ability;
 import com.io.github.pakiruchinoike.rest.dto.AbilityDTO;
 
 public interface AbilityService {

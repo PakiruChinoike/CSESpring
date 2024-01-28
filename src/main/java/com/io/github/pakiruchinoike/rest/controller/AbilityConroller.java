@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.io.github.pakiruchinoike.domain.entity.Ability;
+import com.io.github.pakiruchinoike.domain.entity.ability.Ability;
 import com.io.github.pakiruchinoike.rest.dto.AbilityDTO;
-import com.io.github.pakiruchinoike.service.AbilityService;
+import com.io.github.pakiruchinoike.service.model.AbilityService;
 
 import static org.springframework.http.HttpStatus.*;
 

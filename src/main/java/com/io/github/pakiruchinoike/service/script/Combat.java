@@ -5,10 +5,11 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.io.github.pakiruchinoike.domain.entity.Ability;
-import com.io.github.pakiruchinoike.domain.entity.Attributes;
-import com.io.github.pakiruchinoike.domain.entity.Character;
-import com.io.github.pakiruchinoike.domain.entity.Weakness;
+import com.io.github.pakiruchinoike.domain.entity.ability.Ability;
+import com.io.github.pakiruchinoike.domain.entity.ability.CombatAmbient;
+import com.io.github.pakiruchinoike.domain.entity.character.Attributes;
+import com.io.github.pakiruchinoike.domain.entity.character.Character;
+import com.io.github.pakiruchinoike.domain.entity.character.Weakness;
 import com.io.github.pakiruchinoike.domain.enums.CheckType;
 import com.io.github.pakiruchinoike.domain.enums.Damagetype;
 import com.io.github.pakiruchinoike.domain.enums.TargetType;
@@ -21,6 +22,8 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @Service
 public class Combat {
+
+    private final CombatAmbient ambient;
 
     private final CharacterService characterService;
     private final CombatLogDTO combatLog;
@@ -37,21 +40,21 @@ public class Combat {
             case SINGLE_FOE: {
                 List<CombatLogDTO> combatLogList = new ArrayList<>();
                 combatLogList.add(abilitySingle(ability, character, user));
-                CombatLogDTO.roundValue = CombatLogDTO.roundValue+1;
+                ambient.setTurn(ambient.getTurn()+1);
                 return combatLogList;
             }
             case SINGLE_ALLY: {
                 List<CombatLogDTO> combatLogList = new ArrayList<>();
                 combatLogList.add(abilitySingle(ability, character, user));
-                CombatLogDTO.roundValue = CombatLogDTO.roundValue+1;
+                ambient.setTurn(ambient.getTurn()+1);
                 return combatLogList;
             }
             case MULTIPLE_FOE: {
-                CombatLogDTO.roundValue = CombatLogDTO.roundValue+1;
+                ambient.setTurn(ambient.getTurn()+1);
                 return abilityMultiple(ability, characters, user);
             }
             case MULTIPLE_ALLY: {
-                CombatLogDTO.roundValue = CombatLogDTO.roundValue+1;
+                ambient.setTurn(ambient.getTurn()+1);
                 return abilityMultiple(ability, characters, user);
             }
             default: {

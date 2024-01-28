@@ -1,4 +1,4 @@
-package com.io.github.pakiruchinoike.domain.entity;
+package com.io.github.pakiruchinoike.domain.entity.character;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

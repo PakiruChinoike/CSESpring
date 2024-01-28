@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.io.github.pakiruchinoike.domain.entity.character.Character;
 import com.io.github.pakiruchinoike.rest.dto.CharacterDTO;
-import com.io.github.pakiruchinoike.domain.entity.Character;
-import com.io.github.pakiruchinoike.service.CharacterService;
+import com.io.github.pakiruchinoike.service.model.CharacterService;
 
 import static org.springframework.http.HttpStatus.*;
 

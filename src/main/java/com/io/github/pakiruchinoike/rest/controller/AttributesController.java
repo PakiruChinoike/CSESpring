@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.io.github.pakiruchinoike.domain.entity.Attributes;
+import com.io.github.pakiruchinoike.domain.entity.character.Attributes;
 import com.io.github.pakiruchinoike.domain.repository.AttributesRepository;
 
 import static org.springframework.http.HttpStatus.*;

@@ -2,7 +2,7 @@ package com.io.github.pakiruchinoike.service.model;
 
 import java.util.List;
 
-import com.io.github.pakiruchinoike.domain.entity.Class;
+import com.io.github.pakiruchinoike.domain.entity.character.Class;
 import com.io.github.pakiruchinoike.domain.enums.Classname;
 import com.io.github.pakiruchinoike.rest.dto.ClassDTO;
 

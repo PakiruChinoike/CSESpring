@@ -1,4 +1,4 @@
-package com.io.github.pakiruchinoike.service.impl;
+package com.io.github.pakiruchinoike.service.model.impl;
 
 import org.springframework.stereotype.Service;
 

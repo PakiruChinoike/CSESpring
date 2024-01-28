@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.io.github.pakiruchinoike.domain.entity.Class;
+import com.io.github.pakiruchinoike.domain.entity.character.Class;
 
 @Repository
 public interface ClassRepository extends JpaRepository<Class, Integer>{

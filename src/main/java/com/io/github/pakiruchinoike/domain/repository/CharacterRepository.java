@@ -4,7 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.io.github.pakiruchinoike.domain.entity.Character;
+import com.io.github.pakiruchinoike.domain.entity.character.Character;
 
 public interface CharacterRepository extends JpaRepository<Character, Integer>{
 

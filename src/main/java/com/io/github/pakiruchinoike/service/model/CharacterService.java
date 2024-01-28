@@ -1,8 +1,8 @@
-package com.io.github.pakiruchinoike.service;
+package com.io.github.pakiruchinoike.service.model;
 
 import java.util.List;
 
-import com.io.github.pakiruchinoike.domain.entity.Character;
+import com.io.github.pakiruchinoike.domain.entity.character.Character;
 import com.io.github.pakiruchinoike.rest.dto.CharacterDTO;
 
 public interface CharacterService {

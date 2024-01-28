@@ -1,4 +1,4 @@
-package com.io.github.pakiruchinoike.service.impl;
+package com.io.github.pakiruchinoike.service.model.impl;
 
 import java.util.List;
 
@@ -8,11 +8,11 @@ import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.stereotype.Service;
 
-import com.io.github.pakiruchinoike.domain.entity.Ability;
+import com.io.github.pakiruchinoike.domain.entity.ability.Ability;
 import com.io.github.pakiruchinoike.domain.repository.AbilityRepository;
 import com.io.github.pakiruchinoike.exception.ServiceRuleException;
 import com.io.github.pakiruchinoike.rest.dto.AbilityDTO;
-import com.io.github.pakiruchinoike.service.AbilityService;
+import com.io.github.pakiruchinoike.service.model.AbilityService;
 
 import lombok.RequiredArgsConstructor;
 

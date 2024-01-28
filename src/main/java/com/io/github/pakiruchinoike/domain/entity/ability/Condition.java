@@ -15,7 +15,7 @@ public class Condition {
 
     private void triggers() {
         if (trigger.isTrigger()) {
-            
+           //uses Ability conditionEffect 
         }
     }
 

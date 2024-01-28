@@ -1,4 +1,4 @@
-package com.io.github.pakiruchinoike.domain.entity;
+package com.io.github.pakiruchinoike.domain.entity.ability;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -14,6 +14,7 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.io.github.pakiruchinoike.domain.entity.character.Class;
 import com.io.github.pakiruchinoike.domain.enums.CheckType;
 import com.io.github.pakiruchinoike.domain.enums.Damagetype;
 import com.io.github.pakiruchinoike.domain.enums.TargetType;

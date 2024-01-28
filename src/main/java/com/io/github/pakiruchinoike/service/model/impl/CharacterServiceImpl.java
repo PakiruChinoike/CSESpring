@@ -11,10 +11,10 @@ import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.stereotype.Service;
 
-import com.io.github.pakiruchinoike.domain.entity.Character;
-import com.io.github.pakiruchinoike.domain.entity.Class;
-import com.io.github.pakiruchinoike.domain.entity.User;
-import com.io.github.pakiruchinoike.domain.entity.Attributes;
+import com.io.github.pakiruchinoike.domain.entity.character.Attributes;
+import com.io.github.pakiruchinoike.domain.entity.character.Character;
+import com.io.github.pakiruchinoike.domain.entity.character.Class;
+import com.io.github.pakiruchinoike.domain.entity.client.User;
 import com.io.github.pakiruchinoike.domain.repository.AttributesRepository;
 import com.io.github.pakiruchinoike.domain.repository.CharacterRepository;
 import com.io.github.pakiruchinoike.domain.repository.ClassRepository;

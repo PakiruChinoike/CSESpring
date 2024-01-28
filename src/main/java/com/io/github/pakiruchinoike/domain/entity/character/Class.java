@@ -1,4 +1,4 @@
-package com.io.github.pakiruchinoike.domain.entity;
+package com.io.github.pakiruchinoike.domain.entity.character;
 
 import java.util.List;
 
@@ -16,6 +16,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
+import com.io.github.pakiruchinoike.domain.entity.ability.Ability;
 import com.io.github.pakiruchinoike.domain.enums.Classname;
 
 import lombok.AllArgsConstructor;
